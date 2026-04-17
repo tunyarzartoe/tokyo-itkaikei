@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三毛猫モモの紹介ページ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .intro-paragraph {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            margin-bottom: 25px;
+            padding: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        dl {
+            margin-bottom: 15px;
+        }
+        
+        dt {
+            font-weight: bold;
+            color: #764ba2;
+            margin-top: 12px;
+            margin-bottom: 5px;
+        }
+        
+        dd {
+            margin-left: 20px;
+            color: #555;
+            padding: 8px;
+            background-color: #f8f9fa;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+        }
+        
+        ol {
+            margin-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            color: #555;
+            padding: 8px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            margin-left: 20px;
+        }
+        
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+        
+        footer {
+            background-color: rgba(0, 0, 0, 0.2);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-radius: 8px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>三毛猫モモの紹介ページ</h1>
+        <p class="intro-paragraph">三毛猫のモモについて紹介します。</p>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="card">
+                <h2>プロフィール</h2>
+                <img src="momo.jpg" alt="三毛猫モモの写真">
+                <dl>
+                    <dt>生年月日</dt>
+                    <dd>2020年1月1日</dd>
+                    <dt>性別</dt>
+                    <dd>メス</dd>
+                    <dt>出身地</dt>
+                    <dd>東京都</dd>
+                </dl>
+            </article>
+
+            <article class="card">
+                <h2>好きな食べ物</h2>
+                <ol>
+                    <li>焼き魚</li>
+                    <li>刺身</li>
+                    <li>かつお節</li>
+                </ol>
+            </article>
+
+            <article class="card">
+                <h2>SNS</h2>
+                <p>Twitterで <a href="#" target="_blank" rel="momo">フォロー</a>してください。</p>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p style="color: white;"> <small>&copy;  2026 Momo.</small></p>
+    </footer>
+</body>
+</html>
