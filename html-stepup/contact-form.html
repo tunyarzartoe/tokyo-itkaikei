@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせフォーム</title>
+</head>
+
+<body style="background-color: #f0f0f0; padding: 20px;">
+    <form action="#" method="post"
+        style="max-width: 400px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
+        <h1 style="width: auto;">お問い合わせフォーム</h1>
+
+        <div style="margin-bottom: 15px;">
+            <label for="name" style="display: block; margin-bottom: 5px;">お名前:</label>
+            <input type="text" id="name" name="name" required
+                style="width: 100%; padding: 8px; box-sizing: border-box;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="email" style="display: block; margin-bottom: 5px;">メールアドレス:</label>
+            <input type="email" id="email" name="email" required
+                style="width: 100%; padding: 8px; box-sizing: border-box;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="subject" style="display: block; margin-bottom: 5px;">お住まいの地域:</label>
+            <select id="subject" name="subject" required style="width: 100%; padding: 8px; box-sizing: border-box;">
+                <option value="">選択してください</option>
+                <option value="tokyo">東京</option>
+                <option value="osaka">大阪</option>
+                <option value="kyoto">京都</option>
+                <option value="nagoya">名古屋</option>
+                <option value="sapporo">札幌</option>
+                <option value="fukuoka">福岡</option>
+                <option value="okinawa">沖縄</option>
+                <option value="kinki">関西</option>
+                <option value="chubu">中部</option>
+                <option value="tohoku">東北</option>
+                <option value="other">その他</option>
+            </select>
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="gender" style="display: block; margin-bottom: 5px;">性別:</label>
+            <input type="radio" name="gender" value="male">男性
+            <input type="radio" name="gender" value="female">女性
+            <input type="radio" name="gender" value="other">その他
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="message" style="display: block; margin-bottom: 5px;">お問い合わせ内容:</label>
+            <textarea id="message" name="message" rows="5" required
+                style="width: 100%; padding: 8px; box-sizing: border-box;"></textarea>
+        </div>
+        <div style="margin-bottom: 15px;">
+            <input type="checkbox" name="privacy" required>
+
+            プライベートポリシーに同意します
+        </div>
+        <button type="submit"
+            style="padding: 10px 20px; background-color: #333; color: white; border: none; cursor: pointer;">送信</button>
+</body>
+
+</html>

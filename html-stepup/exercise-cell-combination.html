@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>セルの結合の練習 ー 果物の種類
+    </title>
+</head>
+
+
+<body>
+
+    <table border="1" style="width: 80%; margin: 0 auto; background-color: white; border-collapse: collapse;">
+        <caption style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;">テーブルの演習 - 果物の種類</caption>
+        <thead style="background-color: #333; color: white;">
+            <tr>
+                <th rowspan="2">名前</th>
+                <th rowspan="2">画像</th> 
+                <th rowspan="2">科目</th>
+                <th rowspan="2">URL</th>
+                <th colspan="2">価格</th>
+            </tr>
+            <tr>
+                <th>小</th>
+                <th>大</th>
+            </tr>
+        </thead>
+        <tbody style="text-align: center;">
+            <tr>
+                <td>リンゴ</td>
+                <td><img src="https://learnwithnakamura.s3.ap-northeast-1.amazonaws.com/html-stepup-v2023/apple.jpg"
+                        alt="リンゴ" style="max-width: 120px; height: auto;"></td>
+                <td>バラ科リンゴ属</td>
+                <td><a href="https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%82%B4" target="_blank"
+                        rel="noopener">Wikipedia</a></td>
+                <td>100円</td>
+                <td>180円</td>
+            </tr>
+            <tr>
+                <td>オレンジ</td>
+                <td><img src="https://learnwithnakamura.s3.ap-northeast-1.amazonaws.com/html-stepup-v2023/orange.jpg"
+                        alt="オレンジ" style="max-width: 120px; height: auto;"></td>
+                <td>ミカン科ミカン属</td>
+                <td><a href="https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8" target="_blank"
+                        rel="noopener">Wikipedia</a></td>
+                <td>120円</td>
+                <td>200円</td>
+            </tr>
+            <tr>
+                <td>ブドウ</td>
+                <td><img src="https://learnwithnakamura.s3.ap-northeast-1.amazonaws.com/html-stepup-v2023/grape.jpg"
+                        alt="ブドウ" style="max-width: 120px; height: auto;"></td>
+                <td>ブドウ科ブドウ属</td>
+                <td><a href="https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%89%E3%82%A6" target="_blank"
+                        rel="noopener">Wikipedia</a></td>
+                <td>140円</td>
+                <td>230円</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
